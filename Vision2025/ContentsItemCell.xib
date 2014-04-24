@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContentsItemCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell autoresizesSubviews="NO" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="197" id="2qW-57-g39" customClass="ContentsItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="197"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" autoresizesSubviews="NO" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2qW-57-g39" id="jyo-gQ-sZY">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="196"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" id="mWW-do-rpi">
+                        <rect key="frame" x="0.0" y="13" width="320" height="124"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TImeStamp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gwg-Ng-1r6">
+                                <rect key="frame" x="83" y="66" width="84" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CXl-Km-DSL">
+                        <rect key="frame" x="86" y="30" width="189" height="37"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <button autoresizesSubviews="NO" opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sfO-go-rBn">
+                        <rect key="frame" x="10" y="99" width="107" height="21"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                        <state key="normal" title="UserName">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="OpenUserNameProfile:" destination="2qW-57-g39" eventType="touchUpInside" id="e5l-zt-iNJ"/>
+                        </connections>
+                    </button>
+                    <imageView autoresizesSubviews="NO" contentMode="scaleAspectFill" id="sVs-KK-Dv5">
+                        <rect key="frame" x="15" y="29" width="50" height="50"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BcK-UZ-tNQ">
+                        <rect key="frame" x="282" y="52" width="25" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="wCM-nO-YWT">
+                        <rect key="frame" x="190" y="28" width="50" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="K8o-1R-Qfb">
+                        <rect key="frame" x="0.0" y="143" width="79" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="fb_share.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="share:" destination="2qW-57-g39" eventType="touchUpInside" id="hz2-MA-O78"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="idY-3T-u9I">
+                        <rect key="frame" x="160" y="144" width="81" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="fb_Up.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="voteupclicked:" destination="2qW-57-g39" eventType="touchUpInside" id="1mU-CM-zQg"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uWG-N9-L3y">
+                        <rect key="frame" x="241" y="143" width="79" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <state key="normal" image="fb_comments.png">
+                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="commentaction:" destination="2qW-57-g39" eventType="touchUpInside" id="jO5-en-mQs"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="L7W-u6-lEa">
+                        <rect key="frame" x="79" y="144" width="81" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="fb_Down.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="votedownclicked:" destination="2qW-57-g39" eventType="touchUpInside" id="U0n-eW-2RP"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <accessibility key="accessibilityConfiguration">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
+            <connections>
+                <outlet property="Back" destination="mWW-do-rpi" id="mWu-2L-dPR"/>
+                <outlet property="Button1" destination="K8o-1R-Qfb" id="A1U-kC-6mK"/>
+                <outlet property="Button2" destination="L7W-u6-lEa" id="R1h-Uf-bLU"/>
+                <outlet property="Button3" destination="idY-3T-u9I" id="vUd-pz-RKk"/>
+                <outlet property="Button4" destination="uWG-N9-L3y" id="YSd-63-Fd1"/>
+                <outlet property="TimeStemp" destination="Gwg-Ng-1r6" id="jww-sH-EgH"/>
+                <outlet property="UserProfilePicture" destination="wCM-nO-YWT" id="q2j-sf-RLo"/>
+                <outlet property="commentnumber" destination="BcK-UZ-tNQ" id="kNg-7z-0GT"/>
+                <outlet property="containingBox" destination="jyo-gQ-sZY" id="I7c-J7-DmJ"/>
+                <outlet property="description" destination="CXl-Km-DSL" id="hFM-vK-Zub"/>
+                <outlet property="imageView" destination="sVs-KK-Dv5" id="2me-0X-f6M"/>
+                <outlet property="text" destination="CXl-Km-DSL" id="iD2-NB-hEd"/>
+                <outlet property="username" destination="sfO-go-rBn" id="tFY-iM-eqf"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="fb_Down.png" width="81" height="44"/>
+        <image name="fb_Up.png" width="81" height="44"/>
+        <image name="fb_comments.png" width="79" height="44"/>
+        <image name="fb_share.png" width="81" height="44"/>
+    </resources>
+</document>
